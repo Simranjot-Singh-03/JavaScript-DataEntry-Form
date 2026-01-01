@@ -1,0 +1,50 @@
+body {
+  background: burlywood;
+  font-family: Arial;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+input[type="submit"] {
+  background: rgb(144, 102, 89);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  font-size: 20px;
+  background: #efefef;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" href="sakuratask.css" />
+    <script src="taskjava1.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Data Entry Form</h1>
+
+      <form>
+        <input type="text" id="nameInput" placeholder="Enter Name" required />
+        <input type="number" id="idInput" placeholder="Enter ID" required />
+        <input
+          type="number"
+          id="phoneInput"
+          placeholder="Enter Phone Number"
+          required
+        />
+        <input type="submit" value="Add Record" />
+      </form>
+
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
